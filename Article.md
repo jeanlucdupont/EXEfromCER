@@ -6,7 +6,7 @@ Transport Layer Security (TLS) is widely used to protect the confidentiality and
 This proof of concept (PoC) demonstrates how an attacker can embed a full Windows executable inside an X.509 certificate extension and deliver it over HTTPS. Once the client connects and retrieves the certificate, it can extract and execute the binary locally.
 No traditional download. No HTTP request. Just **certificate data**.
 
-To the best of my knowledge, this technique of embedding and extracting a full binary payload from an X.509 certificate extension has not been publicly demonstrated before. If similar research or PoCs exist, I would appreciate references or contact.
+To the best of my knowledge, this technique of embedding and extracting a full binary payload from an X.509 certificate extension has not been publicly demonstrated before. If similar research or PoCs exist, I would appreciate references or contact. ==> https://www.extrahop.com/blog/stop-ssl-tls-exfil does exactly this since 2018 
 
 ---
 
